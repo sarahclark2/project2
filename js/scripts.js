@@ -40,7 +40,7 @@ $(function() {
           {
             'q': 'What group is featured in this photo-story?',
             'options': [
-              'The Fighting Wombats',
+              'The Fighting Crickets',
               'GLOW',
               'The Dancing Quakers',
               'A pack of lizards'
@@ -78,14 +78,8 @@ $(function() {
     naturalWidth: 600,
     naturalHeight: 400
   });
-
   $(document).ready(function() {
-             $('.tooltip').tooltipster();
-         });
+              $('.tooltip').tooltipster();
+          });
 
-         $('.tooltip').tooltipster({
-   animation: 'fade',
-   delay: 200,
-   theme: 'tooltipster-punk',
-   trigger: 'click'
 });
