@@ -5,10 +5,7 @@ $(function() {
 
 });
 
-	  $(document).ready(function() {
-	    $(".rainbow").lettering();
-	  });
-
+	  
     $('#quiz').quiz({
         //resultsScreen: '#results-screen',
         //counter: false,
@@ -82,4 +79,19 @@ $(function() {
               $('.tooltip').tooltipster();
           });
 
+          $('.demo').infiniteslide();
+          $('.demo').infiniteslide({
+            'speed': 100
+          });
+          $('.demo').infiniteslide({
+
+  // up/down/left/right
+  'direction': 'left'
+
+});
+$('.demo').infiniteslide({
+  'pauseonhover': true
+});
+$('.demo').infiniteslide({
+  'responsive': true // default: false
 });
